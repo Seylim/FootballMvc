@@ -1,0 +1,9 @@
+﻿@model ListPlayerResponse
+
+<div class="card" style="width: 18rem;">
+    <ul class="list-group list-group-flush">
+        <li class="list-group-item">
+            <a asp-controller="Players" asp-action="Details" asp-route-id="@Model.Id">@Model.FirstName @Model.LastName</a>
+        </li>
+    </ul>
+</div>

@@ -1,0 +1,14 @@
+﻿@model IEnumerable<ListLeagueResponse>
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="row">
+    @foreach (var item in Model)
+    {
+        <div class="col-4">
+            <partial name="_LeagueCard" model="@item" />
+        </div>
+    }
+</div>

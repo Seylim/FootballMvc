@@ -1,0 +1,10 @@
+﻿@model IEnumerable<ListPlayerResponse>
+
+<div class="row">
+    @foreach (var item in Model)
+    {
+        <div class="col-4">
+            <partial name="_PlayerCard" model="@item" />
+        </div>
+    }
+</div>

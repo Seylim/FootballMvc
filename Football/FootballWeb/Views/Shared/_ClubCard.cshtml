@@ -1,0 +1,9 @@
+﻿@model ListClubResponse
+<div class="card">
+    <img src=@Model.LogoUrl class="card-img-top" alt="...">
+    <div class="card-body">
+        <h5 class="card-title">@Model.Name</h5>
+        <p class="card-text">@Model.Coach.FirstName @Model.Coach.LastName</p>
+        <a asp-controller="Clubs" asp-action="Details" asp-route-id="@Model.Id" class="btn btn-primary">Detay</a>
+    </div>
+</div>
