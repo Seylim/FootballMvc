@@ -5,13 +5,15 @@ VisualStudioVersion = 17.0.32112.339
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FootballWeb", "FootballWeb\FootballWeb.csproj", "{8175367F-AF10-4A06-9668-CA322A4BB38A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Football.Entities", "Football.Entities\Football.Entities.csproj", "{AE57A33B-51EB-4ECF-951E-ACB4AE3A243C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Football.Entities", "Football.Entities\Football.Entities.csproj", "{AE57A33B-51EB-4ECF-951E-ACB4AE3A243C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Football.DataAccess", "Football.DataAccess\Football.DataAccess.csproj", "{5A3F3859-03DF-4617-A0A4-CE75A844867A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Football.DataAccess", "Football.DataAccess\Football.DataAccess.csproj", "{5A3F3859-03DF-4617-A0A4-CE75A844867A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Football.Business", "Football.Business\Football.Business.csproj", "{87E1C807-6D11-4DE7-A9DC-88D9A38D05F8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Football.Business", "Football.Business\Football.Business.csproj", "{87E1C807-6D11-4DE7-A9DC-88D9A38D05F8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Football.Dtos", "Football.Dto\Football.Dtos.csproj", "{699EF9AB-14D4-4DDC-9F3F-4F4D9ECF5C3E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Football.Dtos", "Football.Dto\Football.Dtos.csproj", "{699EF9AB-14D4-4DDC-9F3F-4F4D9ECF5C3E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Football.WebAPI", "Football.WebAPI\Football.WebAPI.csproj", "{A53659CF-EBD4-4728-92B2-7FE47A500DC1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{699EF9AB-14D4-4DDC-9F3F-4F4D9ECF5C3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{699EF9AB-14D4-4DDC-9F3F-4F4D9ECF5C3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{699EF9AB-14D4-4DDC-9F3F-4F4D9ECF5C3E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A53659CF-EBD4-4728-92B2-7FE47A500DC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A53659CF-EBD4-4728-92B2-7FE47A500DC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A53659CF-EBD4-4728-92B2-7FE47A500DC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A53659CF-EBD4-4728-92B2-7FE47A500DC1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
